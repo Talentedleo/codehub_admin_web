@@ -120,7 +120,7 @@ export const constantRouterMap = [
 
 export default new Router({
   mode: 'history', //后端支持可开
-  base: '/manager/', //多个子项目的前缀
+  //base: '/manager/', //多个子项目的前缀
   scrollBehavior: () => ({ y: 0 }),
   routes: constantRouterMap
 })
